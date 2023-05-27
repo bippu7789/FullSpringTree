@@ -14,6 +14,7 @@ public class AutowiredAnnotationTest {
 		// invoke
 		String msg = flkt.shoping(new String[] { "shirt", "trouser", "bealt" }, new double[] { 100.0, 400.0, 500.0 });
 		System.out.println(msg);
+		ctx.close();
 	}
 
 }
