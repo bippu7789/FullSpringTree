@@ -7,6 +7,7 @@
 	<!-- cfgs java class as a spring beans -->
 	<bean id="dtdc" class="com.nt.sbeans.DTDC" />
 	<bean id="fpkt" class="com.nt.sbeans.Flipkart" />
+	<bean id="bDart" class="com.nt.sbeans.BlueDart"/>
 
 	<!-- Cfg annotation related post processor -->
 	<bean
