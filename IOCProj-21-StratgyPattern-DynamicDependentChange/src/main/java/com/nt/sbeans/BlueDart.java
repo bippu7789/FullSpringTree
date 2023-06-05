@@ -1,5 +1,8 @@
 package com.nt.sbeans;
 
+import org.springframework.stereotype.Component;
+
+@Component("blueDart")
 public final class BlueDart implements Courier {
 	public BlueDart() {
 		System.out.println("BlueDart 0- param constructor");

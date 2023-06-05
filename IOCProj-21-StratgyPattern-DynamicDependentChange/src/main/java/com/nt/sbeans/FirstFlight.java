@@ -1,5 +1,8 @@
 package com.nt.sbeans;
 
+import org.springframework.stereotype.Component;
+
+@Component("firstFlight")
 public final class FirstFlight implements Courier {
 	public FirstFlight() {
 		System.out.println("FirstFlight::0 param constructor");
